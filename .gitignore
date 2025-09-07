@@ -1,0 +1,59 @@
+node_modules
+# --------------------------------
+# Node / NestJS
+# --------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency locks (optional, ignore if you use only one lock manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --------------------------------
+# Build output
+# --------------------------------
+dist/
+build/
+.out/
+coverage/
+.cache/
+
+# --------------------------------
+# TypeScript
+# --------------------------------
+*.tsbuildinfo
+
+# --------------------------------
+# Environment & secrets
+# --------------------------------
+.env
+.env.*.local
+
+# --------------------------------
+# Logs
+# --------------------------------
+*.log
+logs
+*.pid
+*.seed
+*.pid.lock
+
+# --------------------------------
+# IDEs & Editors
+# --------------------------------
+# VS Code
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+*.iml
+
+# Others
+*.swp
+*.swo
+*.bak

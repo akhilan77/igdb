@@ -1,0 +1,22 @@
+{
+  "name": "igdb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:db": "docker compose up -d",
+    "stop:db": "docker compose down",
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run start:dev",
+    "dev": "npm run dev:db && powershell -Command \"Start-Process cmd -ArgumentList '/c','npm --workspace apps/api run start:dev'\" ; npm --workspace apps/web run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "apps/web",
+    "apps/api"
+  ],
+  "private": "true"
+}
