@@ -7,6 +7,6 @@ export declare class GamesController {
     findAll(): Promise<import("./game.entity").Game[]>;
     findOne(slug: string): Promise<import("./game.entity").Game>;
     create(dto: CreateGameDto): Promise<import("./game.entity").Game>;
-    update(slug: string, dto: UpdateGameDto): any;
-    remove(slug: string): any;
+    update(slug: string, dto: UpdateGameDto): Promise<import("./game.entity").Game>;
+    remove(slug: string): Promise<void>;
 }

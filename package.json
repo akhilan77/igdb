@@ -18,5 +18,8 @@
     "apps/web",
     "apps/api"
   ],
-  "private": "true"
+  "private": "true",
+  "dependencies": {
+    "@nestjs/platform-express": "^11.1.6"
+  }
 }
