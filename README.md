@@ -56,7 +56,6 @@ psql -h 127.0.0.1 -p 5432 -U postgres
 # You can see the tables by
 \dt
 # You can see the records in the table by
-```sql
 select * from <tableName>;
 ```
 ```
