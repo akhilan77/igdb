@@ -11,6 +11,8 @@ const common_1 = require("@nestjs/common");
 const config_1 = require("@nestjs/config");
 const typeorm_1 = require("@nestjs/typeorm");
 const app_controller_1 = require("./app.controller");
+const ping_controller_1 = require("./ping.controller");
+const status_controller_1 = require("./status.controller");
 const app_service_1 = require("./app.service");
 const games_module_1 = require("./games/games.module");
 const genres_module_1 = require("./genres/genres.module");
@@ -37,7 +39,7 @@ exports.AppModule = AppModule = __decorate([
             games_module_1.GamesModule,
             genres_module_1.GenresModule,
         ],
-        controllers: [app_controller_1.AppController],
+        controllers: [app_controller_1.AppController, ping_controller_1.PingController, status_controller_1.StatusController],
         providers: [app_service_1.AppService],
     })
 ], AppModule);

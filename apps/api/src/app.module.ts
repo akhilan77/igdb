@@ -2,6 +2,8 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
+import { PingController } from './ping.controller';
+import { StatusController } from './status.controller';
 import { AppService } from './app.service';
 import { GamesModule } from './games/games.module';
 import { GenresModule } from './genres/genres.module';
@@ -26,7 +28,7 @@ import { GenresModule } from './genres/genres.module';
     GamesModule,
     GenresModule,
   ],
-  controllers: [AppController],
+  controllers: [AppController, PingController, StatusController],
   providers: [AppService],
 })
 export class AppModule {}
