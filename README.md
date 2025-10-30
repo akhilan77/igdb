@@ -44,9 +44,21 @@ Think of it as **IMDb, but for games**.
 - PostgreSQL >= 14
 - Git
 
-```
+```bash
 # Create the igdb database before running BE
 psql -h 127.0.0.1 -p 5432 -U postgres -W -c "CREATE DATABASE igdb;"
+# After that you can login into postgres terminal by doing
+psql -h 127.0.0.1 -p 5432 -U postgres
+# And you can see the databases by
+\l
+# You can connect to igdb  by
+\c igdb
+# You can see the tables by
+\dt
+# You can see the records in the table by
+```sql
+select * from <tableName>;
+```
 ```
 
 ```bash
