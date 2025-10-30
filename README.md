@@ -44,6 +44,11 @@ Think of it as **IMDb, but for games**.
 - PostgreSQL >= 14
 - Git
 
+```
+# Create the igdb database before running BE
+psql -h 127.0.0.1 -p 5432 -U postgres -W -c "CREATE DATABASE igdb;"
+```
+
 ```bash
 # Run backend
 cd apps\api
