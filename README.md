@@ -1,10 +1,4 @@
-# 🎮 Game IMDb (Working Title)
-
-<img width="800" height="469" alt="image" src="https://github.com/user-attachments/assets/dd00035e-cf21-46fb-8f81-ff9067b3bd99" />
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)]()
+# 🎮 Game IMDb
 
 > A searchable, browsable, community-driven catalog of video games with pages for games, people (developers, voice actors), companies, user ratings & reviews, screenshots/trailers, and lists — similar to IMDb but for games.
 
@@ -21,10 +15,6 @@ Think of it as **IMDb, but for games**.
 ## ✨ Features
 - 🔎 **Search & Browse**: Search by title, genre, platform, or release year.  
 - 🎮 **Game Pages**: Detailed information about each game (description, release date, cover, screenshots, trailer, platforms, developers, publishers).  
-- ⭐ **Ratings & Reviews**: Community-driven ratings (1–10) and user reviews.  
-- 👤 **People & Companies**: Explore developers, designers, publishers, and voice actors.  
-- 📑 **User Accounts**: Create a profile, add to favorites/watchlist.  
-- 🛠️ **Admin Dashboard**: Add/edit games, manage users and reviews.  
 
 ---
 
